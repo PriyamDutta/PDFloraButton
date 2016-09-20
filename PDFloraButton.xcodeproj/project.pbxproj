@@ -12,6 +12,7 @@
 		082F50D21D7168EC00DE883A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082F50D01D7168EC00DE883A /* Main.storyboard */; };
 		082F50D41D7168EC00DE883A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082F50D31D7168EC00DE883A /* Assets.xcassets */; };
 		082F50D71D7168EC00DE883A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082F50D51D7168EC00DE883A /* LaunchScreen.storyboard */; };
+		082F50DF1D71696200DE883A /* PDFloraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F50DE1D71696200DE883A /* PDFloraButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		082F50D31D7168EC00DE883A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		082F50D61D7168EC00DE883A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		082F50D81D7168EC00DE883A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		082F50DE1D71696200DE883A /* PDFloraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFloraButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				082F50D31D7168EC00DE883A /* Assets.xcassets */,
 				082F50D51D7168EC00DE883A /* LaunchScreen.storyboard */,
 				082F50D81D7168EC00DE883A /* Info.plist */,
+				082F50DE1D71696200DE883A /* PDFloraButton.swift */,
 			);
 			path = PDFloraButton;
 			sourceTree = "<group>";
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					082F50C81D7168EC00DE883A = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -137,6 +141,7 @@
 			files = (
 				082F50CF1D7168EC00DE883A /* ViewController.swift in Sources */,
 				082F50CD1D7168EC00DE883A /* AppDelegate.swift in Sources */,
+				082F50DF1D71696200DE883A /* PDFloraButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +260,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.co.iOSPriyam.PDFloraButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -266,6 +272,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.co.iOSPriyam.PDFloraButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +295,7 @@
 				082F50DD1D7168EC00DE883A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
