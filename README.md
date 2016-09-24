@@ -1,5 +1,23 @@
 # PDFloraButton
 
+Use PDFloraButton.swift class to add flora button over any view using minimum lines of code.
+You can add images also to the surrounding buttons by sending an array of images string.
+Hence! let you use easily.
+
+# Predefined Positions
+enum ButtonPosition {
+    case center
+    case topLeft
+    case topRight
+    case bottomLeft
+    case bottomRight
+    case midTop
+    case midBottom
+    case midLeft
+    case midRight
+}
+
+
 ![alt tag](https://github.com/PriyamDutta/PDFloraButton/blob/master/Screenshots/PDFloraButton.gif)
 
 # Easy usability Swift 3.0
