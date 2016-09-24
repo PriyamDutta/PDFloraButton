@@ -5,17 +5,8 @@ You can add images also to the surrounding buttons by sending an array of images
 Hence! let you use easily.
 
 # Predefined Positions
-enum ButtonPosition {
-    case center
-    case topLeft
-    case topRight
-    case bottomLeft
-    case bottomRight
-    case midTop
-    case midBottom
-    case midLeft
-    case midRight
-}
+ center, topLeft, topRight, bottomLeft, bottomRight, midTop, midBottom, midLeft, midRight
+
 
 
 ![alt tag](https://github.com/PriyamDutta/PDFloraButton/blob/master/Screenshots/PDFloraButton.gif)
