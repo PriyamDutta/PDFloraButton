@@ -348,6 +348,14 @@ class PDFloraButton: UIButton {
         }) 
     }
     
+    // Remove Buttons
+    func removeButtons() {
+        for item in childButtonsArray {
+            item.removeFromSuperview()
+        }
+        self.removeFromSuperview()
+    }
+    
     @IBAction func buttonAction(_ sender: UIButton) {
         scaleAnimate(sender)
         if buttonActionDidSelected != nil {
