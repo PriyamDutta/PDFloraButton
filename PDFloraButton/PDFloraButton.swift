@@ -21,7 +21,7 @@ enum ButtonPosition {
 }
 
 func getRadian(degree: CGFloat) -> CGFloat {
-        return CGFloat(degree * CGFloat(M_PI)/180)
+        return CGFloat(degree * .pi/180)
 }
 
 class PDFloraButton: UIButton {
