@@ -37,5 +37,7 @@ class ViewController: UIViewController {
             debugPrint("Selected Index: \(indexSelected)")
         }
     }
-
 }
+# Get Explained
+
+![alt tag](https://medium.com/@iopriyam93/ios-coordinate-system-trigonometry-5432c05909b1)
