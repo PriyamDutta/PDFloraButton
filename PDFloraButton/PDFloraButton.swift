@@ -26,23 +26,23 @@ func getRadian(degree: CGFloat) -> CGFloat {
 
 class PDFloraButton: UIButton {
     
-    fileprivate let radius: CGFloat = 100.0
-    fileprivate let childButtonSize: CGFloat = 30.0
-    fileprivate let circumference: CGFloat = 360.0
-    fileprivate let delayInterval = 0.0
-    fileprivate let duration = 0.25
-    fileprivate let damping: CGFloat = 0.9
-    fileprivate let initialVelocity: CGFloat = 0.9
-    fileprivate var anchorPoint: CGPoint!
+    private let radius: CGFloat = 100.0
+    private let childButtonSize: CGFloat = 30.0
+    private let circumference: CGFloat = 360.0
+    private let delayInterval = 0.0
+    private let duration = 0.25
+    private let damping: CGFloat = 0.9
+    private let initialVelocity: CGFloat = 0.9
+    private var anchorPoint: CGPoint!
     
-    fileprivate var xPadding: CGFloat = 10.0
-    fileprivate var yPadding: CGFloat = 10.0
-    fileprivate var buttonSize: CGFloat = 0.0
-    fileprivate var childButtons = 0
-    fileprivate var buttonPosition: ButtonPosition = .center
-    fileprivate var childButtonsArray = [UIButton]()
-    fileprivate var degree: CGFloat = 0.0
-    fileprivate var imageArray = [String]()
+    private var xPadding: CGFloat = 10.0
+    private var yPadding: CGFloat = 10.0
+    private var buttonSize: CGFloat = 0.0
+    private var childButtons = 0
+    private var buttonPosition: ButtonPosition = .center
+    private var childButtonsArray = [UIButton]()
+    private var degree: CGFloat = 0.0
+    private var imageArray = [String]()
     
     var isOpen = false
     var buttonActionDidSelected: ((_ indexSelected: Int)->())!
@@ -93,7 +93,7 @@ class PDFloraButton: UIButton {
     }
     
     // Create Buttons
-    fileprivate func createButtons(numbers: Int) {
+    private func createButtons(numbers: Int) {
         for index in 0..<numbers {
             let petal = UIButton(frame: CGRect(x: 0, y: 0, width: childButtonSize, height: childButtonSize))
             petal.center = self.center
@@ -143,7 +143,7 @@ class PDFloraButton: UIButton {
     }
     
     //Simple Scale
-    fileprivate func scaleAnimate(_ sender: UIView) {
+    private func scaleAnimate(_ sender: UIView) {
         UIView.animate(withDuration: self.duration, animations: { 
             sender.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
             }, completion: { (completion) in
@@ -154,7 +154,7 @@ class PDFloraButton: UIButton {
     }
     
     // Center
-    fileprivate func presentationForCenter() {
+    private func presentationForCenter() {
         for (index, item) in self.childButtonsArray.enumerated() {
             self.degree = getRadian(degree: (circumference/CGFloat(childButtons))*CGFloat(index))
             UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIViewAnimationOptions(), animations: {
@@ -169,7 +169,7 @@ class PDFloraButton: UIButton {
     }
     
     // Top Left
-    fileprivate func presentationForTopLeft() {
+    private func presentationForTopLeft() {
         for (index, item) in self.childButtonsArray.enumerated() {
             self.degree = getRadian(degree: (90.0/CGFloat(childButtons-1))*CGFloat(index))
             if item == self.childButtonsArray.first {
@@ -190,7 +190,7 @@ class PDFloraButton: UIButton {
     }
     
     // Top Right
-    fileprivate func presentationForTopRight() {
+    private func presentationForTopRight() {
         for (index, item) in self.childButtonsArray.enumerated() {
             self.degree = getRadian(degree: 90+((90.0)/CGFloat(childButtons-1))*CGFloat(index))
             if item == self.childButtonsArray.first {
@@ -211,7 +211,7 @@ class PDFloraButton: UIButton {
     }
     
     // Bottom Left
-    fileprivate func presentationForBottomLeft() {
+    private func presentationForBottomLeft() {
         for (index, item) in self.childButtonsArray.enumerated() {
             self.degree = getRadian(degree: 270+((90.0)/CGFloat(childButtons-1))*CGFloat(index))
             if item == self.childButtonsArray.first {
@@ -232,7 +232,7 @@ class PDFloraButton: UIButton {
     }
     
     // Bottom Right
-    fileprivate func presentationForBottomRight() {
+    private func presentationForBottomRight() {
         for (index, item) in self.childButtonsArray.enumerated() {
             self.degree = getRadian(degree: 180+((90.0)/CGFloat(childButtons-1))*CGFloat(index))
             if item == self.childButtonsArray.first {
@@ -253,7 +253,7 @@ class PDFloraButton: UIButton {
     }
     
     //Mid Top
-    fileprivate func presentationForMidTop() {
+    private func presentationForMidTop() {
         for (index, item) in self.childButtonsArray.enumerated() {
             self.degree = getRadian(degree: ((180.0)/CGFloat(childButtons-1))*CGFloat(index))
             if item == self.childButtonsArray.first {
@@ -274,7 +274,7 @@ class PDFloraButton: UIButton {
     }
     
     //Mid Bottom
-    fileprivate func presentationForMidBottom() {
+    private func presentationForMidBottom() {
         for (index, item) in self.childButtonsArray.enumerated() {
             self.degree = getRadian(degree: 180+((180.0)/CGFloat(childButtons-1))*CGFloat(index))
             if item == self.childButtonsArray.first {
@@ -295,7 +295,7 @@ class PDFloraButton: UIButton {
     }
     
     //Mid Left
-    fileprivate func presentationForMidLeft() {
+    private func presentationForMidLeft() {
         for (index, item) in self.childButtonsArray.enumerated() {
             self.degree = getRadian(degree: 270+((180.0)/CGFloat(childButtons-1))*CGFloat(index))
             if item == self.childButtonsArray.first {
@@ -316,7 +316,7 @@ class PDFloraButton: UIButton {
     }
     
     //Mid Right
-    fileprivate func presentationForMidRight() {
+    private func presentationForMidRight() {
         for (index, item) in self.childButtonsArray.enumerated() {
             self.degree = getRadian(degree: 90+((180.0)/CGFloat(childButtons-1))*CGFloat(index))
             if item == self.childButtonsArray.first {
@@ -337,7 +337,7 @@ class PDFloraButton: UIButton {
     }
     
     // Close Button
-    fileprivate func closeButtons() {
+    private func closeButtons() {
         UIView.animate(withDuration: self.duration, animations: { 
             for (_,item) in self.childButtonsArray.enumerated() {
                 item.center = self.center
