@@ -39,5 +39,4 @@ class ViewController: UIViewController {
     }
 }
 # Get Explained
-
-![alt tag](https://medium.com/@iopriyam93/ios-coordinate-system-trigonometry-5432c05909b1)
+https://medium.com/@iopriyam93/ios-coordinate-system-trigonometry-5432c05909b1
