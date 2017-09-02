@@ -18,7 +18,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        self.view.addSubview(floraButton)
+        self.view.addSubview(floraButton2)
+        self.view.addSubview(floraButton3)
+        self.view.addSubview(floraButton4)
+        self.view.addSubview(floraButton5)
+        
+        floraButton.buttonActionDidSelected = { (indexSelected) in
+            debugPrint("Selected Index: \(indexSelected)")
+        }
     }
 
 }
