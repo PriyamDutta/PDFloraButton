@@ -28,6 +28,4 @@ class ViewController: UIViewController {
             debugPrint("Selected Index: \(indexSelected)")
         }
     }
-
 }
-

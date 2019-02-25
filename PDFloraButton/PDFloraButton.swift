@@ -24,7 +24,7 @@ func getRadian(degree: CGFloat) -> CGFloat {
         return CGFloat(degree * .pi/180)
 }
 
-class PDFloraButton: UIButton {
+final class PDFloraButton: UIButton {
     
     private let radius: CGFloat = 100.0
     private let childButtonSize: CGFloat = 30.0
