@@ -98,16 +98,16 @@ final class PDFloraButton: UIButton {
             let petal = UIButton(frame: CGRect(x: 0, y: 0, width: childButtonSize, height: childButtonSize))
             petal.center = self.center
             petal.layer.cornerRadius = childButtonSize/2.0
-            petal.backgroundColor = UIColor.cyan
-            petal.setTitleColor(UIColor.black, for: UIControlState())
+            petal.backgroundColor = .cyan
+            petal.setTitleColor(.black, for: UIControl.State())
             petal.tag = index
             if index < imageArray.count {
-             petal.setImage(UIImage(named: imageArray[index]), for: UIControlState())
+                petal.setImage(UIImage(named: imageArray[index]), for: UIControl.State())
             }
-            petal.setTitle(String(index), for: UIControlState())
+            petal.setTitle(String(index), for: UIControl.State())
             petal.addTarget(self, action: #selector(self.buttonAction(_:)), for: .touchUpInside)
             self.superview?.addSubview(petal)
-            self.superview?.bringSubview(toFront: self)
+            self.superview?.bringSubviewToFront(self)
             childButtonsArray.append(petal)
         }
     }
@@ -157,7 +157,7 @@ final class PDFloraButton: UIButton {
     private func presentationForCenter() {
         for (index, item) in self.childButtonsArray.enumerated() {
             self.degree = getRadian(degree: (circumference/CGFloat(childButtons))*CGFloat(index))
-            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIViewAnimationOptions(), animations: {
+            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIView.AnimationOptions(), animations: {
                  item.center = CGPoint(x: self.anchorPoint.x+(self.radius*cos(self.degree)), y: self.anchorPoint.y+(self.radius*sin(self.degree)))
                 }, completion: { (completion) in
                     self.isOpen = true
@@ -178,7 +178,7 @@ final class PDFloraButton: UIButton {
             if item == self.childButtonsArray.last {
                 self.degree = getRadian(degree: 90.0)
             }
-            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIViewAnimationOptions(), animations: {
+            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIView.AnimationOptions(), animations: {
                 item.center = CGPoint(x: self.anchorPoint.x+(self.radius*cos(self.degree)), y: self.anchorPoint.y+(self.radius*sin(self.degree)))
                 }, completion: { (completion) in
                     self.isOpen = true
@@ -199,7 +199,7 @@ final class PDFloraButton: UIButton {
             if item == self.childButtonsArray.last {
                 self.degree = getRadian(degree: 180.0)
             }
-            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIViewAnimationOptions(), animations: {
+            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIView.AnimationOptions(), animations: {
                 item.center = CGPoint(x: self.anchorPoint.x+(self.radius*cos(self.degree)), y: self.anchorPoint.y+(self.radius*sin(self.degree)))
                 }, completion: { (completion) in
                     self.isOpen = true
@@ -220,7 +220,7 @@ final class PDFloraButton: UIButton {
             if item == self.childButtonsArray.last {
                 self.degree = getRadian(degree: 360.0)
             }
-            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIViewAnimationOptions(), animations: {
+            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIView.AnimationOptions(), animations: {
                 item.center = CGPoint(x: self.anchorPoint.x+(self.radius*cos(self.degree)), y: self.anchorPoint.y+(self.radius*sin(self.degree)))
                 }, completion: { (completion) in
                     self.isOpen = true
@@ -241,7 +241,7 @@ final class PDFloraButton: UIButton {
             if item == self.childButtonsArray.last {
                 self.degree = getRadian(degree: 270.0)
             }
-            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIViewAnimationOptions(), animations: {
+            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIView.AnimationOptions(), animations: {
                 item.center = CGPoint(x: self.anchorPoint.x+(self.radius*cos(self.degree)), y: self.anchorPoint.y+(self.radius*sin(self.degree)))
                 }, completion: { (completion) in
                     self.isOpen = true
@@ -262,7 +262,7 @@ final class PDFloraButton: UIButton {
             if item == self.childButtonsArray.last {
                 self.degree = getRadian(degree: 180.0)
             }
-            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIViewAnimationOptions(), animations: {
+            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIView.AnimationOptions(), animations: {
                 item.center = CGPoint(x: self.anchorPoint.x+(self.radius*cos(self.degree)), y: self.anchorPoint.y+(self.radius*sin(self.degree)))
                 }, completion: { (completion) in
                     self.isOpen = true
@@ -283,7 +283,7 @@ final class PDFloraButton: UIButton {
             if item == self.childButtonsArray.last {
                 self.degree = getRadian(degree: 360.0)
             }
-            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIViewAnimationOptions(), animations: {
+            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIView.AnimationOptions(), animations: {
                 item.center = CGPoint(x: self.anchorPoint.x+(self.radius*cos(self.degree)), y: self.anchorPoint.y+(self.radius*sin(self.degree)))
                 }, completion: { (completion) in
                     self.isOpen = true
@@ -304,7 +304,7 @@ final class PDFloraButton: UIButton {
             if item == self.childButtonsArray.last {
                 self.degree = getRadian(degree: 90.0)
             }
-            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIViewAnimationOptions(), animations: {
+            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIView.AnimationOptions(), animations: {
                 item.center = CGPoint(x: self.anchorPoint.x+(self.radius*cos(self.degree)), y: self.anchorPoint.y+(self.radius*sin(self.degree)))
                 }, completion: { (completion) in
                     self.isOpen = true
@@ -325,7 +325,7 @@ final class PDFloraButton: UIButton {
             if item == self.childButtonsArray.last {
                 self.degree = getRadian(degree: 270.0)
             }
-            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIViewAnimationOptions(), animations: {
+            UIView.animate(withDuration: self.duration, delay: self.delayInterval+(Double(index)/10), usingSpringWithDamping: damping, initialSpringVelocity: initialVelocity, options: UIView.AnimationOptions(), animations: {
                 item.center = CGPoint(x: self.anchorPoint.x+(self.radius*cos(self.degree)), y: self.anchorPoint.y+(self.radius*sin(self.degree)))
                 }, completion: { (completion) in
                     self.isOpen = true
