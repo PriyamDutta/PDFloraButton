@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072A202AB8F942F14F5F2BE1847DF98D /* Pods-FloraButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A4F915818185EACCC25ABB0C542D09 /* Pods-FloraButton_Tests-dummy.m */; };
+		0869E4D52279DE01007397D2 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0869E4D12279DE01007397D2 /* .gitkeep */; };
+		0869E4D62279DE01007397D2 /* PDFloraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869E4D22279DE01007397D2 /* PDFloraButton.swift */; };
+		0869E4D72279DE01007397D2 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0869E4D42279DE01007397D2 /* .gitkeep */; };
+		3ED4206862960027E1EA63112601F6A7 /* FloraButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91174D6B810929187C14377FD5D0C4A5 /* FloraButton-dummy.m */; };
+		7E985343DD5BAD5A14B2D55F7B1A4320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A9E6EE1E68ACAC3DDF72D558C9646E18 /* Pods-FloraButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70796307E9F6494236A9FC4EE9207FBD /* Pods-FloraButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5EE36A01EE4AD442F61BA1CF3AC0D0A /* FloraButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59C5235F994669D44D4DB7B0D1C312D2 /* FloraButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFEF1F77A9A50A90CFDFA1F9E154786D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B781D40E1A4B46199992A57FABD40030 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D10661BC529C6BC35AE927B1AD3E010C;
+			remoteInfo = FloraButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0869E4D12279DE01007397D2 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		0869E4D22279DE01007397D2 /* PDFloraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFloraButton.swift; sourceTree = "<group>"; };
+		0869E4D42279DE01007397D2 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		1AE3DB2C5386338EF02057EB40D70A2C /* Pods-FloraButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloraButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		25118BF1BEE54EAC6FC50445F047F80A /* FloraButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FloraButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3885D822389DC48CC06D7645368E0595 /* Pods-FloraButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloraButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3DBFBE748A7FB55BA8D9FA6EA0C2719C /* Pods-FloraButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloraButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4AAA954AEFA441EB4BD2B6396C918EE5 /* Pods-FloraButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloraButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5091BB491A59974E4802117667914627 /* Pods-FloraButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FloraButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59C5235F994669D44D4DB7B0D1C312D2 /* FloraButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FloraButton-umbrella.h"; sourceTree = "<group>"; };
+		5A23B756D893C50FE26B0468C62E77C0 /* FloraButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FloraButton-prefix.pch"; sourceTree = "<group>"; };
+		65618F2113EDA1C697FD7DE5DB0471D5 /* Pods_FloraButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloraButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70796307E9F6494236A9FC4EE9207FBD /* Pods-FloraButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FloraButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7B0A6320B011036040B807E58E3219D8 /* FloraButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FloraButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91174D6B810929187C14377FD5D0C4A5 /* FloraButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FloraButton-dummy.m"; sourceTree = "<group>"; };
+		98CA694FD803DCA9F2C896321560EE43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4A4F915818185EACCC25ABB0C542D09 /* Pods-FloraButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FloraButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		B7ACD9C688DF6C623A49BBBFFF9D637E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C7F38CA9253EA602DAEFE28B1EF40897 /* FloraButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FloraButton.modulemap; sourceTree = "<group>"; };
+		CB2DB44E40CD938543E51F503F24636E /* Pods-FloraButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FloraButton_Tests.modulemap"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F78C16CE889261539DC35E70113B5FE0 /* FloraButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FloraButton.xcconfig; sourceTree = "<group>"; };
+		F8C83844D7E2A80ED5FADF084D3B70CC /* Pods-FloraButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloraButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCBB0B4430D5D5357D260B10AB56138D /* FloraButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FloraButton-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		752DA93145A360F0E89F58C325871038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEF1F77A9A50A90CFDFA1F9E154786D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90DAEED17D11FD33FD5DE02F23E68D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E985343DD5BAD5A14B2D55F7B1A4320 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03ABFAAC0881A6581AA1086FB5D8DCC8 /* FloraButton */ = {
+			isa = PBXGroup;
+			children = (
+				0869E4CF2279DE01007397D2 /* FloraButton */,
+				6244C5503407F146AD8C13E1B3358BB0 /* Pod */,
+				2720554B7D01DAED16662DA61C3A39D3 /* Support Files */,
+			);
+			name = FloraButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0869E4CF2279DE01007397D2 /* FloraButton */ = {
+			isa = PBXGroup;
+			children = (
+				0869E4D02279DE01007397D2 /* Classes */,
+				0869E4D32279DE01007397D2 /* Assets */,
+			);
+			path = FloraButton;
+			sourceTree = "<group>";
+		};
+		0869E4D02279DE01007397D2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0869E4D12279DE01007397D2 /* .gitkeep */,
+				0869E4D22279DE01007397D2 /* PDFloraButton.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0869E4D32279DE01007397D2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0869E4D42279DE01007397D2 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2720554B7D01DAED16662DA61C3A39D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7F38CA9253EA602DAEFE28B1EF40897 /* FloraButton.modulemap */,
+				F78C16CE889261539DC35E70113B5FE0 /* FloraButton.xcconfig */,
+				91174D6B810929187C14377FD5D0C4A5 /* FloraButton-dummy.m */,
+				FCBB0B4430D5D5357D260B10AB56138D /* FloraButton-Info.plist */,
+				5A23B756D893C50FE26B0468C62E77C0 /* FloraButton-prefix.pch */,
+				59C5235F994669D44D4DB7B0D1C312D2 /* FloraButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FloraButton";
+			sourceTree = "<group>";
+		};
+		4548C9189E90DB8A25D6CDF27C28AAA1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C5977FA1BB234C7BD5849E85650ECF1 /* Pods-FloraButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6244C5503407F146AD8C13E1B3358BB0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7B0A6320B011036040B807E58E3219D8 /* FloraButton.podspec */,
+				B7ACD9C688DF6C623A49BBBFFF9D637E /* LICENSE */,
+				98CA694FD803DCA9F2C896321560EE43 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		64C495645653D7815C77862D7969DC57 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03ABFAAC0881A6581AA1086FB5D8DCC8 /* FloraButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7C5977FA1BB234C7BD5849E85650ECF1 /* Pods-FloraButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB2DB44E40CD938543E51F503F24636E /* Pods-FloraButton_Tests.modulemap */,
+				5091BB491A59974E4802117667914627 /* Pods-FloraButton_Tests-acknowledgements.markdown */,
+				3DBFBE748A7FB55BA8D9FA6EA0C2719C /* Pods-FloraButton_Tests-acknowledgements.plist */,
+				A4A4F915818185EACCC25ABB0C542D09 /* Pods-FloraButton_Tests-dummy.m */,
+				3885D822389DC48CC06D7645368E0595 /* Pods-FloraButton_Tests-frameworks.sh */,
+				1AE3DB2C5386338EF02057EB40D70A2C /* Pods-FloraButton_Tests-Info.plist */,
+				70796307E9F6494236A9FC4EE9207FBD /* Pods-FloraButton_Tests-umbrella.h */,
+				F8C83844D7E2A80ED5FADF084D3B70CC /* Pods-FloraButton_Tests.debug.xcconfig */,
+				4AAA954AEFA441EB4BD2B6396C918EE5 /* Pods-FloraButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-FloraButton_Tests";
+			path = "Target Support Files/Pods-FloraButton_Tests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BE38617E19DC235CF1D71A231CA3AEE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25118BF1BEE54EAC6FC50445F047F80A /* FloraButton.framework */,
+				65618F2113EDA1C697FD7DE5DB0471D5 /* Pods_FloraButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				64C495645653D7815C77862D7969DC57 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BE38617E19DC235CF1D71A231CA3AEE8 /* Products */,
+				4548C9189E90DB8A25D6CDF27C28AAA1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D05DF450B526602596631A92E8B41C94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5EE36A01EE4AD442F61BA1CF3AC0D0A /* FloraButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68C1AAB870A5FE788D7616280F7C5F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E6EE1E68ACAC3DDF72D558C9646E18 /* Pods-FloraButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D10661BC529C6BC35AE927B1AD3E010C /* FloraButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920D4F381FACC9CBCE893E28912E7BC6 /* Build configuration list for PBXNativeTarget "FloraButton" */;
+			buildPhases = (
+				D05DF450B526602596631A92E8B41C94 /* Headers */,
+				175CED5977B3DA6739B7E35C7560064A /* Sources */,
+				752DA93145A360F0E89F58C325871038 /* Frameworks */,
+				EB41DEF80FFD785EF57A2C0C6A0CB9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloraButton;
+			productName = FloraButton;
+			productReference = 25118BF1BEE54EAC6FC50445F047F80A /* FloraButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1C3C31B6C1B012BA426D6DA1E0BCACE /* Pods-FloraButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A095185AECC58AC051396DB89201B77 /* Build configuration list for PBXNativeTarget "Pods-FloraButton_Tests" */;
+			buildPhases = (
+				F68C1AAB870A5FE788D7616280F7C5F9 /* Headers */,
+				A254B3A758C9AC0783B272DC7B22A24F /* Sources */,
+				C90DAEED17D11FD33FD5DE02F23E68D0 /* Frameworks */,
+				01A38EEC551ACB0134CA0C1445514119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4E37D823022401EE6FE203116D9E459 /* PBXTargetDependency */,
+			);
+			name = "Pods-FloraButton_Tests";
+			productName = "Pods-FloraButton_Tests";
+			productReference = 65618F2113EDA1C697FD7DE5DB0471D5 /* Pods_FloraButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BE38617E19DC235CF1D71A231CA3AEE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D10661BC529C6BC35AE927B1AD3E010C /* FloraButton */,
+				D1C3C31B6C1B012BA426D6DA1E0BCACE /* Pods-FloraButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01A38EEC551ACB0134CA0C1445514119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB41DEF80FFD785EF57A2C0C6A0CB9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0869E4D52279DE01007397D2 /* .gitkeep in Resources */,
+				0869E4D72279DE01007397D2 /* .gitkeep in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		175CED5977B3DA6739B7E35C7560064A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0869E4D62279DE01007397D2 /* PDFloraButton.swift in Sources */,
+				3ED4206862960027E1EA63112601F6A7 /* FloraButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A254B3A758C9AC0783B272DC7B22A24F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072A202AB8F942F14F5F2BE1847DF98D /* Pods-FloraButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4E37D823022401EE6FE203116D9E459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FloraButton;
+			target = D10661BC529C6BC35AE927B1AD3E010C /* FloraButton */;
+			targetProxy = B781D40E1A4B46199992A57FABD40030 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7520FAAF35E972802415E952710CB6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78C16CE889261539DC35E70113B5FE0 /* FloraButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FloraButton/FloraButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FloraButton/FloraButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FloraButton/FloraButton.modulemap";
+				PRODUCT_MODULE_NAME = FloraButton;
+				PRODUCT_NAME = FloraButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77FFEECB254F146C0AAF79E22B6844B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78C16CE889261539DC35E70113B5FE0 /* FloraButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FloraButton/FloraButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FloraButton/FloraButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FloraButton/FloraButton.modulemap";
+				PRODUCT_MODULE_NAME = FloraButton;
+				PRODUCT_NAME = FloraButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BA0EFCD84F697BA7C2C05B922CB5018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C83844D7E2A80ED5FADF084D3B70CC /* Pods-FloraButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FloraButton_Tests/Pods-FloraButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FloraButton_Tests/Pods-FloraButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CD66348A21AD60A5A5011BE7D51C7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AAA954AEFA441EB4BD2B6396C918EE5 /* Pods-FloraButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FloraButton_Tests/Pods-FloraButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FloraButton_Tests/Pods-FloraButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A095185AECC58AC051396DB89201B77 /* Build configuration list for PBXNativeTarget "Pods-FloraButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA0EFCD84F697BA7C2C05B922CB5018 /* Debug */,
+				8CD66348A21AD60A5A5011BE7D51C7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920D4F381FACC9CBCE893E28912E7BC6 /* Build configuration list for PBXNativeTarget "FloraButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7520FAAF35E972802415E952710CB6E1 /* Debug */,
+				77FFEECB254F146C0AAF79E22B6844B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

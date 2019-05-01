@@ -1,0 +1,6 @@
+framework module FloraButton {
+  umbrella header "FloraButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

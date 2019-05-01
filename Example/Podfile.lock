@@ -1,0 +1,16 @@
+PODS:
+  - FloraButton (0.1.0)
+
+DEPENDENCIES:
+  - FloraButton (from `../`)
+
+EXTERNAL SOURCES:
+  FloraButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FloraButton: da9ba1677e4162378e8e421d386f6e4328ff40f3
+
+PODFILE CHECKSUM: 7eb426f53f8a6f1ba21a15edc09b0c82307d746c
+
+COCOAPODS: 1.6.1

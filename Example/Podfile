@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FloraButton_Tests' do
+  pod 'FloraButton', :path => '../'
+  
+  
+end
