@@ -29,7 +29,7 @@ Add this library to use the radial floating buttons aka "FloraButtons".
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.swift_version = '5.0'
+  s.swift_version = '4.0'
 
   s.source_files = 'FloraButton/Classes/**/*'
   
