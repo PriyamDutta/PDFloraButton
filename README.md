@@ -10,7 +10,7 @@ Use PDFloraButton.swift class to add flora button over any view using minimum li
 You can add images also to the surrounding buttons by sending an array of images string.
 Hence! let you use easily.
 
-# Screen Shot
+# Screenshot
 ![alt tag](https://github.com/PriyamDutta/PDFloraButton/blob/master/Screenshots/ScreenShot.png)
 
 # Predefined Positions
